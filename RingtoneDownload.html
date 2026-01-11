@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ringtone Download Detail</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2b8cee",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Spline Sans', sans-serif;
+        }
+        .waveform-bar {
+            width: 4px;
+            background: #2b8cee;
+            border-radius: 2px;
+            transition: height 0.3s ease;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display">
+<!-- TopAppBar -->
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+<div class="flex items-center p-4 justify-between max-w-md mx-auto">
+<div class="flex size-10 shrink-0 items-center justify-center cursor-pointer">
+<span class="material-symbols-outlined">arrow_back_ios</span>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-tight flex-1 text-center">Ringtone Detail</h2>
+<div class="flex size-10 items-center justify-end">
+<button class="flex items-center justify-center rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors h-10 w-10">
+<span class="material-symbols-outlined">share</span>
+</button>
+</div>
+</div>
+</header>
+<main class="max-w-md mx-auto pb-20">
+<!-- Hero Section: Waveform & Playback -->
+<section class="px-4 pt-6 pb-4">
+<div class="relative w-full aspect-video bg-slate-200 dark:bg-slate-800 rounded-xl overflow-hidden flex flex-col items-center justify-center gap-6 shadow-xl">
+<!-- Abstract Waveform Visualization -->
+<div class="flex items-end justify-center gap-1 h-24">
+<div class="waveform-bar h-12"></div>
+<div class="waveform-bar h-16"></div>
+<div class="waveform-bar h-24"></div>
+<div class="waveform-bar h-20"></div>
+<div class="waveform-bar h-28"></div>
+<div class="waveform-bar h-14"></div>
+<div class="waveform-bar h-22"></div>
+<div class="waveform-bar h-18"></div>
+<div class="waveform-bar h-26"></div>
+<div class="waveform-bar h-12"></div>
+<div class="waveform-bar h-16"></div>
+<div class="waveform-bar h-24"></div>
+<div class="waveform-bar h-20"></div>
+<div class="waveform-bar h-28"></div>
+<div class="waveform-bar h-14"></div>
+</div>
+<!-- Play Button -->
+<button class="bg-primary text-white w-20 h-20 rounded-full flex items-center justify-center shadow-lg shadow-primary/40 hover:scale-105 active:scale-95 transition-transform">
+<span class="material-symbols-outlined !text-4xl">play_arrow</span>
+</button>
+</div>
+</section>
+<!-- Headline & Meta -->
+<section class="px-4 text-center">
+<h1 class="text-3xl font-bold leading-tight mb-1">Cyberpunk Pulse</h1>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium">Synthwave • 0:28 • 45.2K Downloads</p>
+</section>
+<!-- Top Ad Slot -->
+<section class="p-4">
+<div class="flex flex-col items-center gap-4 rounded-xl border-2 border-dashed border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50 px-4 py-8">
+<div class="flex flex-col items-center gap-1">
+<p class="text-xs font-bold uppercase tracking-widest text-slate-400">Advertisement</p>
+<p class="text-sm text-center text-slate-600 dark:text-slate-300">Upgrade to Premium for an Ad-Free Experience</p>
+</div>
+<div class="w-full h-32 bg-slate-200 dark:bg-slate-700 rounded-lg flex items-center justify-center overflow-hidden" data-alt="Rectangular banner advertisement display">
+<span class="material-symbols-outlined text-slate-400">image</span>
+</div>
+<button class="bg-slate-800 dark:bg-white text-white dark:text-slate-900 px-6 py-2 rounded-full text-sm font-bold">
+                    Learn More
+                </button>
+</div>
+</section>
+<!-- Download Section -->
+<section class="px-4 py-6 flex flex-col gap-4">
+<div class="flex flex-col gap-3">
+<!-- Android Download -->
+<button class="flex items-center justify-between bg-primary hover:bg-primary/90 text-white w-full h-16 px-6 rounded-full transition-all group">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined">android</span>
+<div class="text-left">
+<div class="text-sm font-bold">Download for Android</div>
+<div class="text-[10px] opacity-80 uppercase tracking-wider">MP3 Format • 1.2 MB</div>
+</div>
+</div>
+<span class="material-symbols-outlined group-hover:translate-y-1 transition-transform">download</span>
+</button>
+<!-- iPhone Download -->
+<button class="flex items-center justify-between bg-slate-800 dark:bg-slate-200 text-white dark:text-slate-900 w-full h-16 px-6 rounded-full transition-all group">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined">ios</span>
+<div class="text-left">
+<div class="text-sm font-bold">Download for iPhone</div>
+<div class="text-[10px] opacity-80 dark:opacity-60 uppercase tracking-wider">M4R Format • 1.1 MB</div>
+</div>
+</div>
+<span class="material-symbols-outlined group-hover:translate-y-1 transition-transform">download</span>
+</button>
+<a class="text-center text-xs text-primary font-medium hover:underline" href="#">How to install on iPhone?</a>
+</div>
+</section>
+<!-- Bottom Ad Slot -->
+<section class="p-4">
+<div class="flex flex-col items-center gap-4 rounded-xl border-2 border-dashed border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50 px-4 py-10">
+<div class="flex flex-col items-center gap-1">
+<p class="text-xs font-bold uppercase tracking-widest text-slate-400">Sponsored</p>
+</div>
+<div class="w-full aspect-[4/3] bg-cover bg-center rounded-lg shadow-inner" data-alt="High quality lifestyle product advertisement" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBXhgBFNQFSJ78vAUTkLdHb5eoKr8wYhY6EF3f4ilwsF57o--KWBM6zz4gsEKjweYd9EzUGwUBZZa69h_UTVig5ZTiYdCZ1q7wxL43erfNaeROqxzBABW_HVPRiP3XQQX-oeQ7vzg_w1vobBMxRvzfS0sLWuDPKIbKVLeYjpvlcImzLfMze1eZrqMHzy6bn5BSDMw-ZsFm77nHqlKyQZJWAbvj9Gjc5EwkCgRP59Yta0AAyDXnb0womqr9renUnIgsboVPsx5xYnEJ6');"></div>
+<div class="text-center">
+<h4 class="font-bold text-lg">New Wireless Headphones</h4>
+<p class="text-sm text-slate-500">Experience sound like never before with 40h battery.</p>
+</div>
+<button class="bg-primary text-white px-8 py-3 rounded-full text-base font-bold w-full">
+                    Shop Now
+                </button>
+</div>
+</section>
+<!-- Related Ringtones -->
+<section class="px-4 py-8">
+<h3 class="text-xl font-bold mb-6">Related Ringtones</h3>
+<div class="flex flex-col gap-4">
+<!-- Related Item 1 -->
+<div class="flex items-center justify-between p-3 bg-white dark:bg-slate-800 rounded-xl shadow-sm">
+<div class="flex items-center gap-4">
+<div class="size-12 bg-primary/20 rounded-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">music_note</span>
+</div>
+<div>
+<div class="font-bold">Neon Dreams</div>
+<div class="text-xs text-slate-500">Synthwave • 0:15</div>
+</div>
+</div>
+<button class="size-10 rounded-full border border-slate-200 dark:border-slate-700 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">play_arrow</span>
+</button>
+</div>
+<!-- Related Item 2 -->
+<div class="flex items-center justify-between p-3 bg-white dark:bg-slate-800 rounded-xl shadow-sm">
+<div class="flex items-center gap-4">
+<div class="size-12 bg-primary/20 rounded-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">music_note</span>
+</div>
+<div>
+<div class="font-bold">Midnight Drive</div>
+<div class="text-xs text-slate-500">Lofi • 0:30</div>
+</div>
+</div>
+<button class="size-10 rounded-full border border-slate-200 dark:border-slate-700 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">play_arrow</span>
+</button>
+</div>
+<!-- Related Item 3 -->
+<div class="flex items-center justify-between p-3 bg-white dark:bg-slate-800 rounded-xl shadow-sm">
+<div class="flex items-center gap-4">
+<div class="size-12 bg-primary/20 rounded-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">music_note</span>
+</div>
+<div>
+<div class="font-bold">Retro Wave</div>
+<div class="text-xs text-slate-500">Electronic • 0:22</div>
+</div>
+</div>
+<button class="size-10 rounded-full border border-slate-200 dark:border-slate-700 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">play_arrow</span>
+</button>
+</div>
+</div>
+<button class="w-full mt-6 py-3 border border-slate-300 dark:border-slate-700 rounded-full text-sm font-bold text-slate-600 dark:text-slate-300">
+                View All Similar Ringtones
+            </button>
+</section>
+</main>
+<!-- Bottom Navigation Bar (iOS Style) -->
+<nav class="fixed bottom-0 w-full bg-white/90 dark:bg-background-dark/90 backdrop-blur-xl border-t border-slate-200 dark:border-slate-800 pb-6 pt-2 z-50">
+<div class="max-w-md mx-auto flex justify-around items-center">
+<div class="flex flex-col items-center gap-1 text-primary">
+<span class="material-symbols-outlined">home</span>
+<span class="text-[10px] font-bold">Home</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-slate-400">
+<span class="material-symbols-outlined">search</span>
+<span class="text-[10px] font-bold">Search</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-slate-400">
+<span class="material-symbols-outlined">favorite</span>
+<span class="text-[10px] font-bold">Liked</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-slate-400">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[10px] font-bold">Profile</span>
+</div>
+</div>
+</nav>
+</body></html>
