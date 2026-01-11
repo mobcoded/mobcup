@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ringtone Discovery Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2b8cee",
+                        "accent-purple": "#8b5cf6",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: "Spline Sans", sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white min-h-screen">
+<!-- Sticky Header -->
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+<div class="flex items-center justify-between px-4 h-16">
+<div class="flex items-center gap-3">
+<div class="p-2 bg-primary/10 rounded-full">
+<span class="material-symbols-outlined text-primary">menu</span>
+</div>
+<h1 class="text-lg font-extrabold tracking-tight">Ringtone Discovery</h1>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 bg-slate-200/50 dark:bg-slate-800 rounded-full">
+<span class="material-symbols-outlined">search</span>
+</button>
+</div>
+</div>
+</header>
+<main class="max-w-md mx-auto pb-20">
+<!-- Hero Carousel Section -->
+<section class="mt-4">
+<div class="flex overflow-x-auto hide-scrollbar gap-4 px-4">
+<div class="relative flex-none w-[85%] aspect-[16/9] rounded-xl overflow-hidden group">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10"></div>
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Vibrant abstract purple and blue waves" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCQgfplklOuPopDsy-j5G1hFwkKkLCQvxdbjNDIBCDTIl6dArnofjclCW8vA32LyJSMngpNFYhOVpnXNonqWcyOQJC8fDpbm8H9Klm0NWeCnQhEUuip5U4RmWruQRSQ4IHDsQMI87hHW5n9DL5VbXVeyLvcpBfnX5VymQCzcaIFjO5dBAxHKSbvZ7cvBgoARQLAUz2zZmXCvj54aPHUKM07DmveiAFw9xq6Ww46YXYbPc9NnsJrleSyA8UhQG_IxCx76ucBuznqE4nk");'></div>
+<div class="absolute bottom-0 left-0 p-4 z-20 w-full">
+<p class="text-xs font-bold uppercase tracking-widest text-primary mb-1">Featured</p>
+<h2 class="text-xl font-bold text-white mb-3">Trending Now: Summer 2024</h2>
+<button class="bg-primary text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg shadow-primary/30 flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">play_arrow</span> Listen Now
+                        </button>
+</div>
+</div>
+<div class="relative flex-none w-[85%] aspect-[16/9] rounded-xl overflow-hidden group">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10"></div>
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Minimalist gold and white patterns" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAhbtRK-wl90cWnAmldRlDDdM25JHS3DbSuD-qOuW8IYYJVig3BewoRsad-8Zq_nEUZ10YUIzwfMk9FY7CXqwV6u23ZpbTWaRbbSGwpOIBrxqEOBzqI1cynjLt8J6fp6k-auT2CbXlEBwAq_GB_3mxQIcVqi9ZNCRp4SDZsgBJS0cd6JKMIKEljk5iX6mNUHJ94Kd9LBX6l1_hdTjZ8zKPH12sy3XRFfQc9e39KeVv3WH_JboqlwhNdsOHd36VDoV0Y6HwhFWAbYhiW");'></div>
+<div class="absolute bottom-0 left-0 p-4 z-20 w-full">
+<p class="text-xs font-bold uppercase tracking-widest text-accent-purple mb-1">Premium</p>
+<h2 class="text-xl font-bold text-white mb-3">Classic iPhone Remixes</h2>
+<button class="bg-accent-purple text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg shadow-accent-purple/30 flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">workspace_premium</span> Explore
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Ad Placement 1 -->
+<section class="px-4 mt-6">
+<div class="w-full bg-slate-200 dark:bg-slate-800/50 rounded-xl p-4 flex flex-col items-center justify-center border border-dashed border-slate-400 dark:border-slate-700 h-32">
+<span class="text-[10px] text-slate-400 uppercase tracking-widest mb-2">Advertisement</span>
+<div class="text-center">
+<p class="text-sm font-medium text-slate-500">Sponsored Content</p>
+</div>
+</div>
+</section>
+<!-- Category Grid Section -->
+<section class="mt-8 px-4">
+<div class="flex items-center justify-between mb-4">
+<h3 class="text-lg font-bold tracking-tight">Categories</h3>
+<span class="text-primary text-sm font-bold">See All</span>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div class="relative aspect-square rounded-xl overflow-hidden bg-slate-800 flex items-end p-3 group" data-alt="Tech themed background" style='background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCwbBATGDyraB0tSQDPRVrTO231H-Pj1OkYIK4GlzKtKc29BvuWE2C6aDbeO1y-6HHIGehiqta25WXKmha_hzwrtoWbdzWTN69oaTtuq_Z6DrDypYltchFuF5zXWFAqUunsdJT2B55u6zrhxryxEte7MZP-LodYQsyM5QLPDtGKbPNTT5-kHbsDyf6YL2qN3vz1Xn2YxLDDTXP7EOsHibXhBGjFs3Frm5jakoakCuXkskFZTIdwgeGpXdqPEgHryJHJ1f9TwAtBulYW"); background-size: cover;'>
+<span class="text-white font-bold relative z-10">iPhone</span>
+</div>
+<div class="relative aspect-square rounded-xl overflow-hidden bg-slate-800 flex items-end p-3 group" data-alt="Colorful comic style background" style='background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCb5lbEXAM84DcbFk6jmOV1Mv3K_8X7zIT7359LNq1_CJ20OIiBlcd6PXu3vy2LIspP8D0ZBmyJM81SGBNz-e8rzRSRYQ9KDdjUVtg4e2pyaF4TZEvgwwbQPHeqeAsNmvzltbuM32Ag7ZCwxzxW72aO6MEpj8DjYYkZ0xQiGTAcLwTT_LP2Qb1zh4q5UjS6k_KZPhAHMXg1oRAf0Hn96LZLBJU575x0nMuvlYQHfYj4Ifs04ngn-3rTfi6kr9c2SFgIWF_2VGD7Al0H"); background-size: cover;'>
+<span class="text-white font-bold relative z-10">Funny</span>
+</div>
+<div class="relative aspect-square rounded-xl overflow-hidden bg-slate-800 flex items-end p-3 group" data-alt="Ornate cultural patterns" style='background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuB5gzG88mYEZ6wz52vEjoRHkp00XAn7eKePuM2uwGWMCl-LNTAHQhMN-TdZAtAZ4g58eZytkea37aWWDbpHYrdGE7VUnQxouXiOd32LMFw93pWkYxWgClx3WQ3P1E56dRwGzjAPNRzVaGWAopkRgzspUBqawIfntbEl_b_JBLNfWqbhhA-1IJO2Fu0HOb1vCCGIgGhtmsq_GemuruiFcnKIYC3z5kl6OfIMd84dD3AyruKzG_tpdMm0OrgC4DDJUYW6wVfmqODJnkVV"); background-size: cover;'>
+<span class="text-white font-bold relative z-10">Bollywood</span>
+</div>
+<div class="relative aspect-square rounded-xl overflow-hidden bg-slate-800 flex items-end p-3 group" data-alt="Modern geometric shapes" style='background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAlWUgjidRAYH7AaltzWZoqasJa2lpGaSiVm-2dmL78XHzPyfrDSiqgF0-SKy1lhs164zQYi65lIU7oXVmUuyrabK2vH-6_wz32yR54y5--mjrKd5SZ8b7Oew8Kn3BS8WR2k9wWd5vPF060JWxymEVeOWkbanr9_6jlJUTnGPgwKOQlSUUOAS-I8OpTH-nZyry81hd7qg7rzVALBZS90nkB_NopP1ZpMxZfL6obq1WIRlgXV-c2IypO3HAq-LcTmKYPel1dq_elqs0E"); background-size: cover;'>
+<span class="text-white font-bold relative z-10">SMS Alerts</span>
+</div>
+</div>
+</section>
+<!-- Premium CTA -->
+<section class="px-4 mt-8">
+<div class="bg-gradient-to-r from-primary to-accent-purple rounded-xl p-6 text-white text-center shadow-xl shadow-primary/20">
+<h2 class="text-2xl font-black mb-1">Exclusive Offer</h2>
+<p class="text-sm opacity-90 mb-4">Remove all ads and unlock 5,000+ premium tones.</p>
+<button class="bg-white text-primary font-bold px-8 py-3 rounded-full text-sm">Go Premium</button>
+</div>
+</section>
+<!-- Top Downloads List -->
+<section class="mt-8 px-4">
+<div class="flex items-center justify-between mb-4">
+<h3 class="text-lg font-bold tracking-tight">Top Downloads</h3>
+<span class="text-primary text-sm font-bold">Refresh</span>
+</div>
+<div class="space-y-3">
+<!-- Item 1 -->
+<div class="flex items-center justify-between p-3 bg-white dark:bg-slate-800/40 rounded-xl border border-slate-200 dark:border-slate-800">
+<div class="flex items-center gap-3">
+<button class="size-10 flex items-center justify-center bg-primary rounded-full text-white">
+<span class="material-symbols-outlined">play_arrow</span>
+</button>
+<div>
+<p class="font-bold text-sm">Zen Notification</p>
+<p class="text-xs text-slate-500">Minimalist • 0:04</p>
+</div>
+</div>
+<button class="p-2 text-slate-400">
+<span class="material-symbols-outlined">download</span>
+</button>
+</div>
+<!-- Item 2 -->
+<div class="flex items-center justify-between p-3 bg-white dark:bg-slate-800/40 rounded-xl border border-slate-200 dark:border-slate-800">
+<div class="flex items-center gap-3">
+<button class="size-10 flex items-center justify-center bg-primary rounded-full text-white">
+<span class="material-symbols-outlined">play_arrow</span>
+</button>
+<div>
+<p class="font-bold text-sm">Cyberpunk Incoming</p>
+<p class="text-xs text-slate-500">Retro Synth • 0:12</p>
+</div>
+</div>
+<button class="p-2 text-slate-400">
+<span class="material-symbols-outlined">download</span>
+</button>
+</div>
+<!-- Ad Placement 2 (Native style) -->
+<div class="flex items-center gap-4 p-4 bg-slate-200/50 dark:bg-slate-800 rounded-xl border border-slate-300 dark:border-slate-700">
+<div class="size-12 rounded bg-slate-400 flex items-center justify-center text-[10px] text-white font-bold" data-alt="Promotional placeholder icon">AD</div>
+<div class="flex-1">
+<p class="font-bold text-sm">Try the Music App</p>
+<p class="text-[10px] text-slate-500">SPONSORED</p>
+</div>
+<button class="bg-primary text-white px-3 py-1 rounded-full text-[10px] font-bold">INSTALL</button>
+</div>
+<!-- Item 3 -->
+<div class="flex items-center justify-between p-3 bg-white dark:bg-slate-800/40 rounded-xl border border-slate-200 dark:border-slate-800">
+<div class="flex items-center gap-3">
+<button class="size-10 flex items-center justify-center bg-primary rounded-full text-white">
+<span class="material-symbols-outlined">play_arrow</span>
+</button>
+<div>
+<p class="font-bold text-sm">Marimba Remix</p>
+<p class="text-xs text-slate-500">Classic • 0:15</p>
+</div>
+</div>
+<button class="p-2 text-slate-400">
+<span class="material-symbols-outlined">download</span>
+</button>
+</div>
+<!-- Item 4 -->
+<div class="flex items-center justify-between p-3 bg-white dark:bg-slate-800/40 rounded-xl border border-slate-200 dark:border-slate-800">
+<div class="flex items-center gap-3">
+<button class="size-10 flex items-center justify-center bg-primary rounded-full text-white">
+<span class="material-symbols-outlined">play_arrow</span>
+</button>
+<div>
+<p class="font-bold text-sm">Funny Duck Call</p>
+<p class="text-xs text-slate-500">Animals • 0:02</p>
+</div>
+</div>
+<button class="p-2 text-slate-400">
+<span class="material-symbols-outlined">download</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Fixed Bottom Nav (Optional) -->
+<nav class="fixed bottom-0 left-0 right-0 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-lg border-t border-slate-200 dark:border-slate-800 max-w-md mx-auto z-50">
+<div class="flex items-center justify-around h-16">
+<button class="flex flex-col items-center gap-1 text-primary">
+<span class="material-symbols-outlined">home</span>
+<span class="text-[10px] font-bold">Home</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-slate-400">
+<span class="material-symbols-outlined">explore</span>
+<span class="text-[10px] font-bold">Browse</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-slate-400">
+<span class="material-symbols-outlined">favorite</span>
+<span class="text-[10px] font-bold">Favorites</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-slate-400">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[10px] font-bold">Profile</span>
+</button>
+</div>
+</nav>
+</body></html>
